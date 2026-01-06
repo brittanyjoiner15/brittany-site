@@ -39,7 +39,7 @@ export default function Home() {
                 className="text-[#ff006e] animate-[neon-pulse_2s_ease-in-out_infinite]"
                 style={{ textShadow: '0 0 20px #ff006e, 0 0 40px #ff006e, 0 0 60px #ff006e' }}
               >
-                Brittany
+                Britt
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-[#00f5ff] max-w-2xl font-bold uppercase tracking-wide">

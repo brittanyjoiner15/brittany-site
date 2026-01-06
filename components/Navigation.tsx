@@ -10,32 +10,32 @@ export default function Navigation() {
             className="text-2xl font-bold text-[#ff006e] hover:text-[#00f5ff] transition-colors tracking-wider uppercase hover:animate-[glitch_0.3s_ease-in-out]"
             style={{ textShadow: '0 0 10px #ff006e, 0 0 20px #ff006e' }}
           >
-            ▶ Brittany
+            ▶ Britt
           </Link>
           <div className="flex gap-6">
             <Link
               href="/about"
               className="text-[#00f5ff] hover:text-[#39ff14] transition-all font-bold uppercase text-sm tracking-wide hover:scale-110 hover:drop-shadow-[0_0_8px_#00f5ff]"
             >
-              [ About ]
+              About
             </Link>
             <Link
               href="/projects"
               className="text-[#00f5ff] hover:text-[#39ff14] transition-all font-bold uppercase text-sm tracking-wide hover:scale-110 hover:drop-shadow-[0_0_8px_#00f5ff]"
             >
-              [ Projects ]
+              Projects
             </Link>
             <Link
               href="/tools"
               className="text-[#00f5ff] hover:text-[#39ff14] transition-all font-bold uppercase text-sm tracking-wide hover:scale-110 hover:drop-shadow-[0_0_8px_#00f5ff]"
             >
-              [ Tools ]
+              Tools
             </Link>
             <Link
               href="/#contact"
               className="text-[#00f5ff] hover:text-[#39ff14] transition-all font-bold uppercase text-sm tracking-wide hover:scale-110 hover:drop-shadow-[0_0_8px_#00f5ff]"
             >
-              [ Contact ]
+              Contact
             </Link>
           </div>
         </div>
