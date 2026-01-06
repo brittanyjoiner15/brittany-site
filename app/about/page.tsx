@@ -26,7 +26,7 @@ export default function AboutPage() {
             </h2>
             <div className="text-slate-600 dark:text-slate-300 space-y-4">
               <p>
-                Hi! I'm Brittany, a developer and technology enthusiast passionate about
+                Hi! I'm Britt, a developer and technology enthusiast passionate about
                 building things that make a difference. I love exploring new technologies,
                 solving complex problems, and sharing what I learn along the way.
               </p>
@@ -111,7 +111,7 @@ export default function AboutPage() {
               I'm always open to interesting projects and collaborations.
             </p>
             <a
-              href="/#contact"
+              href="mailto:brittanyjoiner15@gmail.com"
               className="inline-block px-8 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-slate-50 transition-colors shadow-lg"
             >
               Get in Touch

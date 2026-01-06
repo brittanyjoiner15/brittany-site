@@ -62,7 +62,7 @@ export default function Home() {
               ▶ View My Work
             </Link>
             <Link
-              href="/#contact"
+              href="mailto:brittanyjoiner15@gmail.com"
               className="px-8 py-3 bg-transparent hover:bg-[#00f5ff] text-[#00f5ff] hover:text-[#1a0a2e] font-bold uppercase tracking-wide transition-all border-4 border-[#00f5ff] hover:shadow-[0_0_20px_#00f5ff] hover:scale-105"
             >
               ◆ Get in Touch

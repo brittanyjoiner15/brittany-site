@@ -32,7 +32,7 @@ export default function Navigation() {
               Tools
             </Link>
             <Link
-              href="/#contact"
+              href="mailto:brittanyjoiner15@gmail.com"
               className="text-[#00f5ff] hover:text-[#39ff14] transition-all font-bold uppercase text-sm tracking-wide hover:scale-110 hover:drop-shadow-[0_0_8px_#00f5ff]"
             >
               Contact
