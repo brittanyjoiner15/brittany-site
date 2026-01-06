@@ -1,135 +1,119 @@
 import Link from "next/link";
+import Image from "next/image";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800">
-      {/* Navigation */}
-      <nav className="border-b border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-slate-900 dark:text-white">
-              Brittany
-            </Link>
-            <div className="flex gap-6">
-              <Link href="#about" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                About
-              </Link>
-              <Link href="#projects" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                Projects
-              </Link>
-              <Link href="#tools" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                Tools
-              </Link>
-              <Link href="#contact" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                Contact
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <div className="min-h-screen bg-gradient-to-br from-[#1a0a2e] via-[#16213e] to-[#0f3460] relative overflow-hidden">
+      {/* Animated background stars/pixels */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute top-10 left-10 w-2 h-2 bg-[#00f5ff] animate-pulse"></div>
+        <div className="absolute top-20 right-20 w-2 h-2 bg-[#ff006e] animate-pulse delay-75"></div>
+        <div className="absolute bottom-20 left-1/4 w-2 h-2 bg-[#39ff14] animate-pulse delay-150"></div>
+        <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-[#8b00ff] animate-pulse delay-300"></div>
+      </div>
+
+      <Navigation />
 
       {/* Hero Section */}
-      <main className="max-w-6xl mx-auto px-6 py-20">
+      <main className="max-w-6xl mx-auto px-6 py-20 relative z-10">
         <div className="flex flex-col items-center text-center space-y-8">
-          {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-            B
+          {/* Profile Image */}
+          <div className="w-32 h-32 rounded-full overflow-hidden shadow-[0_0_30px_#ff006e] ring-4 ring-[#ff006e] animate-[float_3s_ease-in-out_infinite]">
+            <Image
+              src="/headshot.jpg"
+              alt="Brittany's profile photo"
+              width={128}
+              height={128}
+              className="object-cover w-full h-full"
+              priority
+            />
           </div>
 
           {/* Heading */}
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-6xl font-bold text-slate-900 dark:text-white">
-              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Brittany</span>
+            <h1 className="text-5xl md:text-6xl font-bold text-white uppercase tracking-wider">
+              Hi, I'm{" "}
+              <span
+                className="text-[#ff006e] animate-[neon-pulse_2s_ease-in-out_infinite]"
+                style={{ textShadow: '0 0 20px #ff006e, 0 0 40px #ff006e, 0 0 60px #ff006e' }}
+              >
+                Brittany
+              </span>
             </h1>
-            <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 max-w-2xl">
-              Developer, creator, and technology enthusiast
+            <p className="text-xl md:text-2xl text-[#00f5ff] max-w-2xl font-bold uppercase tracking-wide">
+              &lt; Developer, creator, and technology enthusiast /&gt;
             </p>
           </div>
 
           {/* Description */}
-          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
-            I build things that make a difference. Welcome to my corner of the internet where
+          <p className="text-lg text-[#39ff14] max-w-2xl leading-relaxed font-mono">
+            &gt; I build things that make a difference. Welcome to my corner of the internet where
             I share my work, the tools I love, and what makes me tick.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Link
-              href="#projects"
-              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-lg hover:shadow-xl"
+              href="/projects"
+              className="px-8 py-3 bg-[#ff006e] hover:bg-[#8b00ff] text-white font-bold uppercase tracking-wide transition-all shadow-[0_0_20px_#ff006e] hover:shadow-[0_0_30px_#8b00ff] border-4 border-[#ff006e] hover:border-[#8b00ff] hover:scale-105"
             >
-              View My Work
+              ▶ View My Work
             </Link>
             <Link
-              href="#contact"
-              className="px-8 py-3 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-900 dark:text-white font-medium rounded-lg border border-slate-200 dark:border-slate-700 transition-colors"
+              href="/#contact"
+              className="px-8 py-3 bg-transparent hover:bg-[#00f5ff] text-[#00f5ff] hover:text-[#1a0a2e] font-bold uppercase tracking-wide transition-all border-4 border-[#00f5ff] hover:shadow-[0_0_20px_#00f5ff] hover:scale-105"
             >
-              Get in Touch
+              ◆ Get in Touch
             </Link>
           </div>
         </div>
 
         {/* Quick Links Section */}
         <div className="grid md:grid-cols-3 gap-6 mt-20">
-          <Link href="#projects" className="group">
-            <div className="p-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-200 dark:border-slate-700">
+          <Link href="/projects" className="group">
+            <div className="p-6 bg-[#0f0a1e] border-4 border-[#ff006e] shadow-[0_0_20px_rgba(255,0,110,0.3)] hover:shadow-[0_0_30px_rgba(255,0,110,0.6)] transition-all hover:-translate-y-2 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#ff006e] to-transparent"></div>
               <div className="text-3xl mb-3">💼</div>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                Projects
+              <h3 className="text-xl font-bold text-[#ff006e] mb-2 group-hover:text-[#00f5ff] transition-colors uppercase tracking-wide">
+                » Projects
               </h3>
-              <p className="text-slate-600 dark:text-slate-400">
-                Check out my portfolio and the things I've built
+              <p className="text-[#00f5ff] font-mono text-sm">
+                &gt; Check out my portfolio and the things I've built
               </p>
             </div>
           </Link>
 
-          <Link href="#about" className="group">
-            <div className="p-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-200 dark:border-slate-700">
+          <Link href="/about" className="group">
+            <div className="p-6 bg-[#0f0a1e] border-4 border-[#00f5ff] shadow-[0_0_20px_rgba(0,245,255,0.3)] hover:shadow-[0_0_30px_rgba(0,245,255,0.6)] transition-all hover:-translate-y-2 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#00f5ff] to-transparent"></div>
               <div className="text-3xl mb-3">👋</div>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                About Me
+              <h3 className="text-xl font-bold text-[#00f5ff] mb-2 group-hover:text-[#39ff14] transition-colors uppercase tracking-wide">
+                » About Me
               </h3>
-              <p className="text-slate-600 dark:text-slate-400">
-                Learn more about my background and what drives me
+              <p className="text-[#39ff14] font-mono text-sm">
+                &gt; Learn more about my background and what drives me
               </p>
             </div>
           </Link>
 
-          <Link href="#tools" className="group">
-            <div className="p-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-200 dark:border-slate-700">
+          <Link href="/tools" className="group">
+            <div className="p-6 bg-[#0f0a1e] border-4 border-[#8b00ff] shadow-[0_0_20px_rgba(139,0,255,0.3)] hover:shadow-[0_0_30px_rgba(139,0,255,0.6)] transition-all hover:-translate-y-2 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#8b00ff] to-transparent"></div>
               <div className="text-3xl mb-3">🛠️</div>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                My Stack
+              <h3 className="text-xl font-bold text-[#8b00ff] mb-2 group-hover:text-[#ff006e] transition-colors uppercase tracking-wide">
+                » My Stack
               </h3>
-              <p className="text-slate-600 dark:text-slate-400">
-                Explore the tools and technologies I recommend
+              <p className="text-[#ff006e] font-mono text-sm">
+                &gt; Explore the tools and technologies I recommend
               </p>
             </div>
           </Link>
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-700 mt-20">
-        <div className="max-w-6xl mx-auto px-6 py-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-600 dark:text-slate-400">
-              © 2026 Brittany. Built with Next.js & Tailwind CSS
-            </p>
-            <div className="flex gap-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                GitHub
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                LinkedIn
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                Twitter
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
