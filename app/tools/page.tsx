@@ -273,7 +273,7 @@ export default function ToolsPage() {
               return (
                 <button
                   key={index}
-                  onClick={() => setSelectedTool(tool)}
+                  onClick={() => setSelectedTool({ ...tool, icon: tool.categoryIcon })}
                   className="w-20 h-20 md:w-24 md:h-24 bg-white border-2 md:border-4 border-[#00f5ff] rounded-xl flex items-center justify-center overflow-hidden hover:scale-110 hover:border-[#ff006e] hover:shadow-[0_0_40px_rgba(255,0,110,1)] active:scale-105 transition-all cursor-pointer shadow-[0_0_20px_rgba(0,245,255,0.5)] p-3 md:p-4"
                   style={{
                     animation: `float ${3 + index * 0.2}s ease-in-out infinite`,
