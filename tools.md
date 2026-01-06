@@ -1,0 +1,27 @@
+These are my tools:
+
+- Trello
+- Notion
+- Airtable
+- Zite/Fillout
+- Raycast
+- PixieBrix
+- Amazing Fields Trello Power-Up
+- Checklist Summary Trello Power-Up
+- Bulk Actions Trello Power-Up
+- Forms by Blue Cat Trello Power-Up
+- Email for Trello Power-Up
+- Crmble CRM for Trello Power-Up
+- Colorful Budget Trello Power-Up
+- Placker Trello Power-Up
+- ProBackup Trello Power-Up
+- Netlify
+- Zapier
+- Krisp
+- Akiflow
+- Brain.FM
+- Warp
+- Gather
+- Canva
+- Buzzsprout
+- Lumina

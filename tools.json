@@ -1,0 +1,194 @@
+[
+  {
+    "category": "Project Management & Productivity",
+    "icon": "📋",
+    "tools": [
+      {
+        "name": "Trello",
+        "description": "Visual project management and collaboration tool using boards, lists, and cards",
+        "link": "https://trello.com",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Notion",
+        "description": "All-in-one workspace for notes, docs, wikis, and project management",
+        "link": "https://notion.so",
+        "logo": "https://www.notion.so/images/favicon.ico"
+      },
+      {
+        "name": "Airtable",
+        "description": "Spreadsheet-database hybrid for organizing and collaborating on data",
+        "link": "https://airtable.com",
+        "logo": "https://airtable.com/images/favicon/baymax/favicon-32x32.png"
+      },
+      {
+        "name": "Akiflow",
+        "description": "Time blocking and task management tool that consolidates tasks from multiple apps",
+        "link": "https://akiflow.com",
+        "logo": "https://akiflow.com/favicon.ico"
+      }
+    ]
+  },
+  {
+    "category": "Automation & Integration",
+    "icon": "🔄",
+    "tools": [
+      {
+        "name": "Zapier",
+        "description": "Connect and automate workflows between different apps and services",
+        "link": "https://zapier.com",
+        "logo": "https://cdn.zapier.com/zapier/images/favicon.ico"
+      },
+      {
+        "name": "PixieBrix",
+        "description": "Low-code platform for customizing and automating web applications",
+        "link": "https://pixiebrix.com",
+        "logo": "https://www.pixiebrix.com/favicon.ico"
+      },
+      {
+        "name": "Zite/Fillout",
+        "description": "Form building and data collection tool",
+        "link": "https://fillout.com",
+        "logo": "https://www.fillout.com/favicon.ico"
+      }
+    ]
+  },
+  {
+    "category": "Trello Power-Ups",
+    "icon": "⚡",
+    "tools": [
+      {
+        "name": "Amazing Fields",
+        "description": "Add custom fields and enhanced data to Trello cards",
+        "link": "https://trello.com/power-ups/amazing-fields",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Checklist Summary",
+        "description": "View checklist progress summaries on Trello cards",
+        "link": "https://trello.com/power-ups/checklist-summary",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Bulk Actions",
+        "description": "Perform bulk operations on multiple Trello cards at once",
+        "link": "https://trello.com/power-ups/bulk-actions",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Forms by Blue Cat",
+        "description": "Create forms that generate Trello cards from submissions",
+        "link": "https://trello.com/power-ups/forms-by-blue-cat",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Email for Trello",
+        "description": "Send and receive emails directly from Trello cards",
+        "link": "https://trello.com/power-ups/email-for-trello",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Crmble CRM for Trello",
+        "description": "Turn Trello into a full-featured CRM system",
+        "link": "https://trello.com/power-ups/crmble",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Colorful Budget",
+        "description": "Budget tracking and financial management for Trello",
+        "link": "https://trello.com/power-ups/colorful-budget",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      },
+      {
+        "name": "Placker",
+        "description": "Advanced project management views including Gantt charts and calendars",
+        "link": "https://placker.com",
+        "logo": "https://placker.com/favicon.ico"
+      },
+      {
+        "name": "ProBackup",
+        "description": "Automated backup and restore for Trello boards",
+        "link": "https://trello.com/power-ups/probackup",
+        "logo": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+      }
+    ]
+  },
+  {
+    "category": "Developer Tools",
+    "icon": "💻",
+    "tools": [
+      {
+        "name": "Raycast",
+        "description": "Extendable launcher for Mac that lets you control your tools with a few keystrokes",
+        "link": "https://raycast.com",
+        "logo": "https://www.raycast.com/favicon-production.png"
+      },
+      {
+        "name": "Warp",
+        "description": "Modern terminal with AI-powered command suggestions and collaboration features",
+        "link": "https://warp.dev",
+        "logo": "https://www.warp.dev/favicon.ico"
+      },
+      {
+        "name": "Netlify",
+        "description": "Platform for deploying and hosting modern web projects",
+        "link": "https://netlify.com",
+        "logo": "https://www.netlify.com/v3/static/favicon/favicon.ico"
+      }
+    ]
+  },
+  {
+    "category": "Audio & Focus",
+    "icon": "🎧",
+    "tools": [
+      {
+        "name": "Krisp",
+        "description": "AI-powered noise cancellation for calls and recordings",
+        "link": "https://krisp.ai",
+        "logo": "https://krisp.ai/favicon.ico"
+      },
+      {
+        "name": "Brain.FM",
+        "description": "Music designed to help you focus, relax, or sleep better",
+        "link": "https://brain.fm",
+        "logo": "https://www.brain.fm/favicon.ico"
+      }
+    ]
+  },
+  {
+    "category": "Design & Content Creation",
+    "icon": "🎨",
+    "tools": [
+      {
+        "name": "Canva",
+        "description": "Graphic design platform for creating social media graphics, presentations, and more",
+        "link": "https://canva.com",
+        "logo": "https://static.canva.com/web/images/favicon-1.ico"
+      },
+      {
+        "name": "Buzzsprout",
+        "description": "Podcast hosting and analytics platform",
+        "link": "https://buzzsprout.com",
+        "logo": "https://www.buzzsprout.com/favicon.ico"
+      },
+      {
+        "name": "Lumina",
+        "description": "Video creation and editing tool",
+        "link": "https://lumina.com",
+        "logo": "https://lumina.com/favicon.ico"
+      }
+    ]
+  },
+  {
+    "category": "Collaboration",
+    "icon": "🤝",
+    "tools": [
+      {
+        "name": "Gather",
+        "description": "Virtual office space for remote teams with video chat and spatial audio",
+        "link": "https://gather.town",
+        "logo": "https://gather.town/favicon.ico"
+      }
+    ]
+  }
+]
