@@ -314,13 +314,13 @@ export default function ToolsPage() {
         <div className="mt-12 bg-gradient-to-r from-[#ff006e] to-[#8b00ff] border-4 border-[#00f5ff] p-8 shadow-[0_0_40px_rgba(255,0,110,0.6)] text-white text-center">
           <h2 className="text-2xl font-bold mb-4 uppercase tracking-wide">Have a Tool Recommendation?</h2>
           <p className="mb-6 text-[#00f5ff] font-mono">
-            &gt; I'm always looking to discover new tools and technologies.
+            &gt; I'm always looking to discover new tools and technologies. Send me a link to your tool and I'll check it out.
           </p>
           <a
-            href="/#contact"
+            href="mailto:brittanyjoiner15@gmail.com"
             className="inline-block px-8 py-3 bg-[#00f5ff] text-[#1a0a2e] font-bold uppercase tracking-wide hover:bg-[#39ff14] transition-all border-4 border-[#00f5ff] hover:border-[#39ff14] hover:shadow-[0_0_20px_rgba(57,255,20,0.8)] hover:scale-105"
           >
-            ◆ Share With Me
+            ◆ Tell Me About Your Tool
           </a>
         </div>
       </main>
