@@ -14,8 +14,11 @@ export default function ToolsPage() {
     link: string;
     icon: string;
     logo: string;
+    couponCode?: string;
+    bonus?: string;
   } | null>(null);
 
+  const [copiedCode, setCopiedCode] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [isSearching, setIsSearching] = useState(false);
   const [filteredToolIndices, setFilteredToolIndices] = useState<number[]>([]);
@@ -98,6 +101,12 @@ export default function ToolsPage() {
     setSearchQuery("");
     setFilteredToolIndices([]);
     setSearchError("");
+  };
+
+  const copyCode = (code: string) => {
+    navigator.clipboard.writeText(code);
+    setCopiedCode(true);
+    setTimeout(() => setCopiedCode(false), 2000);
   };
 
   // Filter tools based on search results
@@ -207,7 +216,10 @@ export default function ToolsPage() {
         {selectedTool && (
           <div
             className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 px-4"
-            onClick={() => setSelectedTool(null)}
+            onClick={() => {
+              setSelectedTool(null);
+              setCopiedCode(false);
+            }}
           >
             <div
               className="bg-[#0f0a1e] border-4 border-[#ff006e] max-w-md w-full p-8 relative shadow-[0_0_60px_rgba(255,0,110,0.8)] animate-[pixel-fade-in_0.3s_ease-out]"
@@ -215,7 +227,10 @@ export default function ToolsPage() {
             >
               {/* Close button */}
               <button
-                onClick={() => setSelectedTool(null)}
+                onClick={() => {
+                  setSelectedTool(null);
+                  setCopiedCode(false);
+                }}
                 className="absolute top-4 right-4 text-[#00f5ff] hover:text-[#ff006e] text-2xl font-bold hover:scale-125 transition-all"
               >
                 ✕
@@ -241,6 +256,25 @@ export default function ToolsPage() {
                 {selectedTool.description}
               </p>
 
+              {selectedTool.couponCode && (
+                <div className="mb-6">
+                  <p className="text-[#39ff14] font-bold uppercase text-sm mb-2 text-center">
+                    🎁 Coupon Code
+                  </p>
+                  <div className="flex gap-2 items-stretch">
+                    <div className="flex-1 bg-[#0f0a1e] border-2 border-[#00f5ff] px-4 py-3 font-mono text-[#00f5ff] text-lg text-center flex items-center justify-center">
+                      {selectedTool.couponCode}
+                    </div>
+                    <button
+                      onClick={() => copyCode(selectedTool.couponCode!)}
+                      className="px-4 py-3 bg-[#00f5ff] hover:bg-[#39ff14] text-[#1a0a2e] font-bold uppercase text-sm transition-all border-2 border-[#00f5ff] hover:border-[#39ff14] hover:shadow-[0_0_20px_rgba(57,255,20,0.6)] whitespace-nowrap"
+                    >
+                      {copiedCode ? '✓ Copied!' : '📋 Copy'}
+                    </button>
+                  </div>
+                </div>
+              )}
+
               <a
                 href={selectedTool.link}
                 target="_blank"
@@ -249,6 +283,12 @@ export default function ToolsPage() {
               >
                 ▶ Visit Website
               </a>
+
+              {selectedTool.bonus && (
+                <p className="mt-3 text-[#00f5ff]/70 text-xs text-center font-mono italic">
+                  {selectedTool.bonus}
+                </p>
+              )}
             </div>
           </div>
         )}
@@ -288,7 +328,7 @@ export default function ToolsPage() {
                       {tool.description}
                     </p>
                     <span className="text-[#39ff14] font-bold uppercase text-sm group-hover:text-[#ff006e] transition-colors">
-                      Click to Learn More →
+                      Learn More →
                     </span>
                   </button>
                 ))}

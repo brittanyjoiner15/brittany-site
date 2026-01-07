@@ -24,8 +24,9 @@
       {
         "name": "Akiflow",
         "description": "Time blocking and task management tool that consolidates tasks from multiple apps",
-        "link": "https://akiflow.com",
-        "logo": "https://framerusercontent.com/images/gBZO0Wz5P5eUSiDuVkQu9MzdM.svg"
+        "link": "https://akiflow.com/?ref=brittanyjoiner1",
+        "logo": "https://framerusercontent.com/images/gBZO0Wz5P5eUSiDuVkQu9MzdM.svg",
+        "bonus": "Use my link for an extended trial"
       }
     ]
   },
@@ -108,7 +109,7 @@
       {
         "name": "ProBackup",
         "description": "Automated backup and restore for Trello boards",
-        "link": "https://trello.com/power-ups/627935ee3007420c7c389a96",
+        "link": "https://probackup.cello.so/UFQnExbtbnC",
         "logo": "https://uploads-ssl.webflow.com/64bfd0dbc3353671105615a6/6565fafd526e1837d9a311cf_Pro%20Backup%20avatar_144.png"
       }
     ]
@@ -144,13 +145,13 @@
       {
         "name": "Krisp",
         "description": "AI-powered noise cancellation for calls and recordings",
-        "link": "https://krisp.ai",
+        "link": "https://krisp.pxf.io/nXJor6",
         "logo": "https://krispai.zendesk.com/hc/theming_assets/01HZPJ0AHXM62TR1C2KR6PZ0ZA"
       },
       {
         "name": "Brain.FM",
         "description": "Music designed to help you focus, relax, or sleep better",
-        "link": "https://brain.fm",
+        "link": "https://www.brain.fm/britt",
         "logo": "https://www.brain.fm/favicon.png"
       }
     ]
@@ -162,20 +163,23 @@
       {
         "name": "Canva",
         "description": "Graphic design platform for creating social media graphics, presentations, and more",
-        "link": "https://canva.com",
+        "link": "https://partner.canva.com/LPM7qL",
         "logo": "https://static.canva.com/domain-assets/canva/static/images/favicon-1.ico"
       },
       {
         "name": "Buzzsprout",
         "description": "Podcast hosting and analytics platform",
-        "link": "https://buzzsprout.com",
-        "logo": "https://www.buzzsprout.com/favicon.ico"
+        "link": "https://www.buzzsprout.com/?referrer_id=2467189",
+        "logo": "https://www.buzzsprout.com/favicon.ico",
+        "bonus": "Use my link for an extended trial"
       },
       {
         "name": "Lumina",
         "description": "Video creation and editing tool",
-        "link": "https://lumina.com",
-        "logo": "https://getlumina.com/favicon.ico"
+        "link": "https://getlumina.com?aff=274",
+        "logo": "https://getlumina.com/favicon.ico",
+        "couponCode": "BRITTBUILDS",
+        "bonus": "Get 10% off with my code"
       }
     ]
   },
@@ -188,6 +192,38 @@
         "description": "Virtual office space for remote teams with video chat and spatial audio",
         "link": "https://gather.town",
         "logo": "https://gather.town/favicon.ico"
+      }
+    ]
+  },
+  {
+    "category": "Hardware",
+    "icon": "🖲️",
+    "tools": [
+      {
+        "name": "Starlink",
+        "description": "Satellite internet service providing high-speed broadband access",
+        "link": "https://www.starlink.com/residential?referral=RC-DF-5188294-28838-64",
+        "logo": "https://starlink.com/assets/favicons/favicon.ico"
+      },
+      {
+        "name": "T-Mobile Mobile Router",
+        "description": "Portable 5G Wi-Fi hotspot for internet on the go",
+        "link": "https://referral.t-mobile.com/YuhurNV",
+        "logo": "https://www.t-mobile.com/content/dam/t-mobile/ntm/branding/logos/corporate/tmo-logo-v4.svg"
+      },
+      {
+        "name": "Solgaard",
+        "description": "Innovative travel gear and accessories",
+        "link": "https://solgaard.co/brittanyjoiner",
+        "logo": "https://solgaard.co/cdn/shop/files/Solgaard_Favicon_Sustainable_32x32.jpg?v=1613691046",
+        "couponCode": "BRITTANYJOINER"
+      },
+      {
+        "name": "Tobiq",
+        "description": "Organized Travel bags",
+        "link": "https://tobiqtravel.com/BRITT",
+        "logo": "https://tobiqtravel.com/cdn/shop/files/Untitled_design_5.png?crop=center&height=32&v=1708052958&width=32",
+        "bonus": "Get 15% off with my link"
       }
     ]
   }
