@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const services = [
+const offerings = [
   {
     id: 1,
     title: "1:1 Consulting",
@@ -68,41 +67,7 @@ const services = [
   },
 ];
 
-const products = [
-  {
-    id: 1,
-    title: "Starter Template Pack",
-    description: "Collection of production-ready starter templates for Next.js, React, and Node.js projects.",
-    price: "$49",
-    features: ["5 templates", "TypeScript setup", "Lifetime updates"],
-    color: "ff006e",
-    icon: "📦",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Template Pack Inquiry",
-  },
-  {
-    id: 2,
-    title: "Code Review Checklist",
-    description: "Comprehensive checklist and guide for conducting thorough code reviews on any project.",
-    price: "$29",
-    features: ["PDF download", "Interactive version", "Best practices guide"],
-    color: "00f5ff",
-    icon: "✅",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Checklist Purchase",
-  },
-  {
-    id: 3,
-    title: "Developer Resources Bundle",
-    description: "Curated collection of tools, resources, and guides for modern web development.",
-    price: "$39",
-    features: ["100+ resources", "Regular updates", "Community access"],
-    color: "39ff14",
-    icon: "📚",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Resources Bundle Inquiry",
-  },
-];
-
 export default function Shop() {
-  const [activeTab, setActiveTab] = useState<"services" | "products">("services");
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#1a0a2e] via-[#16213e] to-[#0f3460] relative overflow-hidden">
       {/* Animated background */}
@@ -117,7 +82,7 @@ export default function Shop() {
 
       <main className="max-w-6xl mx-auto px-6 py-16 relative z-10">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white uppercase tracking-wider mb-4">
             <span
               className="text-[#ff006e] animate-[neon-pulse_2s_ease-in-out_infinite]"
@@ -131,33 +96,9 @@ export default function Shop() {
           </p>
         </div>
 
-        {/* Tabs */}
-        <div className="flex justify-center gap-4 mb-12">
-          <button
-            onClick={() => setActiveTab("services")}
-            className={`px-8 py-3 font-bold uppercase text-sm tracking-wide transition-all border-4 ${
-              activeTab === "services"
-                ? "bg-[#ff006e] text-white border-[#ff006e] shadow-[0_0_20px_#ff006e]"
-                : "bg-transparent text-[#ff006e] border-[#ff006e] hover:bg-[#ff006e] hover:text-white hover:shadow-[0_0_15px_#ff006e]"
-            }`}
-          >
-            ▶ Services
-          </button>
-          <button
-            onClick={() => setActiveTab("products")}
-            className={`px-8 py-3 font-bold uppercase text-sm tracking-wide transition-all border-4 ${
-              activeTab === "products"
-                ? "bg-[#00f5ff] text-[#1a0a2e] border-[#00f5ff] shadow-[0_0_20px_#00f5ff]"
-                : "bg-transparent text-[#00f5ff] border-[#00f5ff] hover:bg-[#00f5ff] hover:text-[#1a0a2e] hover:shadow-[0_0_15px_#00f5ff]"
-            }`}
-          >
-            ▶ Products
-          </button>
-        </div>
-
-        {/* Items Grid */}
+        {/* Offerings Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {(activeTab === "services" ? services : products).map((product, index) => (
+          {offerings.map((product, index) => (
             <div
               key={product.id}
               className={`group relative bg-[#0f0a1e] border-4 border-[#${product.color}] shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] transition-all duration-300 hover:-translate-y-2 overflow-hidden`}
