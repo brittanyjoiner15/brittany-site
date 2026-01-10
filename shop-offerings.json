@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "title": "1:1 Consulting",
+    "description": "Get personalized guidance on Trello, automation, community building, and developer relations strategies.",
+    "price": "$250/hour",
+    "features": [
+      "Video call session",
+      "Expert advice on Trello & automation",
+      "DevRel & community strategies"
+    ],
+    "color": "ff006e",
+    "icon": "💡",
+    "link": "https://buy.stripe.com/7sY8wP9RO4ex7Fmb4ae7m0p"
+  },
+  {
+    "id": 2,
+    "title": "Custom Consulting Packages",
+    "description": "Tailored consulting packages designed to meet your specific business needs and goals.",
+    "price": "Custom",
+    "features": [
+      "Flexible scope",
+      "Ongoing support options",
+      "Customized deliverables"
+    ],
+    "color": "00f5ff",
+    "icon": "📋",
+    "link": "mailto:brittanyjoiner15@gmail.com?subject=Custom Consulting Package Inquiry"
+  },
+  {
+    "id": 3,
+    "title": "Workshop/Training",
+    "description": "Interactive workshops on business systems, automations, and best practices for your team.",
+    "price": "Contact for quote",
+    "features": [
+      "Team training sessions",
+      "Hands-on exercises",
+      "Custom curriculum"
+    ],
+    "color": "8b00ff",
+    "icon": "🎓",
+    "link": "mailto:brittanyjoiner15@gmail.com?subject=Workshop Training Inquiry"
+  },
+  {
+    "id": 4,
+    "title": "Custom Automation Build",
+    "description": "Get a custom automation solution built specifically for your workflow and business processes.",
+    "price": "Custom",
+    "features": [
+      "Tailored to your needs",
+      "Implementation support",
+      "Documentation included"
+    ],
+    "color": "39ff14",
+    "icon": "⚙️",
+    "link": "mailto:brittanyjoiner15@gmail.com?subject=Custom Automation Build"
+  },
+  {
+    "id": 5,
+    "title": "Rate My Product",
+    "description": "Submit your product and receive detailed feedback via Loom video. I'll walk through onboarding and UX, and if I love it, I'll add it to my toolbox!",
+    "price": "$100",
+    "features": [
+      "Complete onboarding review",
+      "Loom video feedback",
+      "Potential feature in toolbox"
+    ],
+    "color": "ff006e",
+    "icon": "⭐",
+    "link": "https://buy.stripe.com/fZu00jaVScL35xe5JQe7m0r"
+  },
+  {
+    "id": 6,
+    "title": "Annual Planning Trello Template",
+    "description": "A comprehensive Trello template to organize and plan your entire year with proven productivity frameworks.",
+    "price": "$5",
+    "features": [
+      "Ready-to-use template",
+      "Detailed instructions",
+      "Instant download"
+    ],
+    "color": "00f5ff",
+    "icon": "📅",
+    "link": "https://buy.stripe.com/00g5o6c9P4qB3JK6oL"
+  },
+  {
+    "id": 7,
+    "title": "Premium Trello Substack",
+    "description": "Get exclusive Trello tips, automation tutorials, and productivity insights delivered to your inbox.",
+    "price": "$9/month",
+    "features": [
+      "Monthly newsletters",
+      "Exclusive content",
+      "Trello power tips"
+    ],
+    "color": "8b00ff",
+    "icon": "📬",
+    "link": "https://trello.substack.com/account"
+  }
+]

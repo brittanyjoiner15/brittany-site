@@ -3,69 +3,7 @@
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-
-const offerings = [
-  {
-    id: 1,
-    title: "1:1 Consulting",
-    description: "Get personalized guidance on your project, career, or technical challenges. Let's solve problems together.",
-    price: "$250/hour",
-    features: ["Video call session", "Follow-up resources", "Action plan"],
-    color: "ff006e",
-    icon: "💡",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=1:1 Consulting Inquiry",
-  },
-  {
-    id: 2,
-    title: "Code Review",
-    description: "Professional code review with detailed feedback on architecture, best practices, and optimization opportunities.",
-    price: "$200",
-    features: ["Thorough analysis", "Written feedback", "30-min follow-up call"],
-    color: "00f5ff",
-    icon: "🔍",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Code Review Request",
-  },
-  {
-    id: 3,
-    title: "Technical Mentorship",
-    description: "Ongoing mentorship for developers looking to level up their skills and advance their careers.",
-    price: "$500/month",
-    features: ["Weekly 1:1 sessions", "Slack/Discord access", "Career guidance"],
-    color: "8b00ff",
-    icon: "🚀",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Mentorship Inquiry",
-  },
-  {
-    id: 4,
-    title: "Workshop/Speaking",
-    description: "Book me for workshops, tech talks, or conference presentations on modern development practices.",
-    price: "Custom",
-    features: ["Interactive sessions", "Custom content", "Q&A included"],
-    color: "39ff14",
-    icon: "🎤",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Speaking Engagement",
-  },
-  {
-    id: 5,
-    title: "Project Kickstart",
-    description: "Get your project off the ground with architecture planning, tech stack selection, and initial setup.",
-    price: "$1,000",
-    features: ["Architecture design", "Tech stack setup", "Documentation"],
-    color: "ff006e",
-    icon: "⚡",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Project Kickstart",
-  },
-  {
-    id: 6,
-    title: "Custom Development",
-    description: "Full-stack development services for your web application, API, or automation project.",
-    price: "Contact for quote",
-    features: ["Modern tech stack", "Clean code", "Testing included"],
-    color: "00f5ff",
-    icon: "💻",
-    link: "mailto:brittanyjoiner15@gmail.com?subject=Custom Development Project",
-  },
-];
+import offerings from "@/shop-offerings.json"
 
 export default function Shop() {
   return (
