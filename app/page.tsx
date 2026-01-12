@@ -56,10 +56,10 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Link
-              href="/projects"
+              href="/tools"
               className="px-8 py-3 bg-[#ff006e] hover:bg-[#8b00ff] text-white font-bold uppercase tracking-wide transition-all shadow-[0_0_20px_#ff006e] hover:shadow-[0_0_30px_#8b00ff] border-4 border-[#ff006e] hover:border-[#8b00ff] hover:scale-105"
             >
-              ▶ View My Work
+              ▶ View My Stack
             </Link>
             <Link
               href="https://buy.stripe.com/28E28re845iBe3K0pwe7m0q"

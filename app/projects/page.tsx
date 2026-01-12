@@ -4,32 +4,28 @@ import Footer from "@/components/Footer";
 // Sample project data - replace with your actual projects
 const projects = [
   {
-    title: "Project One",
-    description: "A brief description of what this project does and the problem it solves. Highlight key features and technologies used.",
-    tech: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    link: "https://github.com",
-    demo: "https://example.com",
+    title: "Developer Relations | PixieBrix",
+    description: "A platform that empowers users to customize their web experience by building and sharing browser extensions without code. I contributed to developer relations, creating resources and engaging with the community to foster growth.",
+    tech: ["React", "Javascript", "Browser Extensions", "No-Code"],
+    link: "https://www.pixiebrix.com/",
   },
   {
-    title: "Project Two",
-    description: "Another exciting project showcasing your skills. Describe the impact, the challenges you faced, and what you learned.",
-    tech: ["Node.js", "Express", "PostgreSQL", "Docker"],
-    link: "https://github.com",
-    demo: "https://example.com",
+    title: "Founder | How I Trello",
+    description: "Trello content and community management. I create engaging content, tutorials, and manage community interactions to enhance user experience and promote Trello's features, as well as support and promote developer ecosystem.",
+    tech: ["Trello", "Express", "PostgreSQL", "Docker"],
+    link: "https://trello.substack.com/",
   },
   {
-    title: "Project Three",
-    description: "A third amazing project that demonstrates your expertise. Include metrics or results if available.",
-    tech: ["Python", "FastAPI", "React", "AWS"],
-    link: "https://github.com",
-    demo: null,
+    title: "Boreganizer",
+    description: "An app for tracking chores and organizing household tasks. Built with a focus on simplicity and usability.",
+    tech: ["Zite", "FastAPI", "React", "AWS"],
+    link: "https://boreganizer.zite.so/",
   },
   {
-    title: "Project Four",
-    description: "Yet another impressive project in your portfolio. Focus on what makes this project unique or interesting.",
+    title: "Rate My Product",
+    description: "Service for providing quality user feedback on your product. Helps businesses gather insights and improve their offerings with quick real product feedback.",
     tech: ["Vue.js", "Firebase", "Tailwind CSS"],
-    link: "https://github.com",
-    demo: "https://example.com",
+    link: "https://ratemyprod.com/",
   },
 ];
 
@@ -63,7 +59,7 @@ export default function ProjectsPage() {
                 {project.description}
               </p>
 
-              {/* Tech Stack Tags */}
+              {/* Tech Stack Tags
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, techIndex) => (
                   <span
@@ -73,7 +69,7 @@ export default function ProjectsPage() {
                     {tech}
                   </span>
                 ))}
-              </div>
+              </div> */}
 
               {/* Links */}
               <div className="flex gap-4">
@@ -83,7 +79,7 @@ export default function ProjectsPage() {
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
                 >
-                  View Code →
+                  See More →
                 </a>
                 {project.demo && (
                   <a
