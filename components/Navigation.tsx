@@ -51,7 +51,7 @@ export default function Navigation() {
               Contact
             </Link>
             <Link
-              href="https://www.buymeacoffee.com/brittanyjoiner"
+              href="https://buy.stripe.com/28E28re845iBe3K0pwe7m0q"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-transparent hover:bg-[#39ff14] text-[#39ff14] hover:text-[#1a0a2e] font-bold uppercase text-xs tracking-wide transition-all border-2 border-[#39ff14] hover:shadow-[0_0_15px_#39ff14] hover:scale-105"
@@ -123,7 +123,7 @@ export default function Navigation() {
               Contact
             </Link>
             <Link
-              href="https://www.buymeacoffee.com/brittanyjoiner"
+              href="https://buy.stripe.com/28E28re845iBe3K0pwe7m0q"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
