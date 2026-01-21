@@ -93,7 +93,7 @@ export default function ProjectsPage() {
             I'm always interested in working on exciting new projects.
           </p>
           <a
-            href="/#contact"
+            href="mailto:brittanyjoiner15@gmail.com"
             className="inline-block px-8 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-slate-50 transition-colors shadow-lg"
           >
             Let's Talk
