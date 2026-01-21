@@ -81,16 +81,6 @@ export default function ProjectsPage() {
                 >
                   See More →
                 </a>
-                {project.demo && (
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-purple-600 dark:text-purple-400 hover:underline font-medium"
-                  >
-                    Live Demo →
-                  </a>
-                )}
               </div>
             </div>
           ))}
